@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+}
+
+.vl {
+    border-left: 1px solid blue;    
+    height: 75%;
+    position: absolute;
+    float: right;
+}
