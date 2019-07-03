@@ -8,7 +8,7 @@ CKEDITOR.editorConfig = function( config ) {
     // For complete reference see:
     // http://docs.ckeditor.com/#!/api/CKEDITOR.config
 
-    config.skin = 'material_design,../../assets/skins/ckeditor/material_design/';
+    config.skin = 'material_design,../../skins/ckeditor/material_design/';
 
     // The toolbar groups arrangement, optimized for two toolbar rows.
     config.toolbarGroups = [
@@ -36,7 +36,7 @@ CKEDITOR.editorConfig = function( config ) {
 
     config.autoGrow_minHeight = 300;
     config.autoGrow_maxHeight = 520;
-    config.removePlugins = 'resize';
+    // config.removePlugins = 'resize';
 
     config.filebrowserBrowseUrl = 'file_manager/fm_ckeditor.html';
 
